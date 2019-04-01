@@ -1,0 +1,67 @@
+/* GENERAL */
+
+body {
+    background-color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:active {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #137c4f;
+}
+
+/* NAV BAR */
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+
+.nav:first-child {
+    border-right: none;
+}
+
+/* HOMEPAGE */
+
+.welcome {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* ABOUT PAGE */
+
+
+
+/* WORK PAGE */
+
+.grid-container {
+  display: grid;
+    grid-gap: 10px;
+}
+
+/* CONTACT */
