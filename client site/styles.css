@@ -29,8 +29,8 @@ body {
 
 .navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 20;
     /*    display: grid;*/
     text-align: right ;
     /*    grid-template-columns:1fr 1f 1fr 1fr;*/
@@ -51,7 +51,8 @@ body {
 
 .navbar li {
     display: inline-block;
-    padding-left: 20px ;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*ul {*/
